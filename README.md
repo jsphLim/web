@@ -4,4 +4,9 @@
 >>>lock.h 锁
 
 V1.0 
+开发环境:Ubuntu CLion
+注意事项:
+cmakeLists.txt中需要加入以下对thread的支持<br>
+find_package(Threads REQUIRED)
+target_link_libraries(yueWebServer Threads::Threads)
 C++实现简单的web服务器<br>目前只完成读取前端文件的GET请求 POST请求还没学完 日后更新
