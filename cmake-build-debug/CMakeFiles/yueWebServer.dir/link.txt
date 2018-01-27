@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/yueWebServer.dir/main.cpp.o  -o yueWebServer -lpthread 
