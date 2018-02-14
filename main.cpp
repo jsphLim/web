@@ -21,6 +21,7 @@ int main()
     //创建socket
     sock = socket(AF_INET, SOCK_STREAM, 0);
     //三个参数分别代表协议（AF_INET： IPV4 AF_INET6：IPV6 服务类型（SOCK——STREAM：服务流/TCP协议 SOCK——UGRAM:数据包 udp协议 ） 协议(基本设为0 代表默认协议即可）
+   
     if(sock < 0)
     {
         printf("socket创建失败\n");
