@@ -63,7 +63,6 @@ void pool<T>::stop() {
     queue_cond.broadcast(); //解除阻塞所有线程
 }
 
-
 template<class T>
 void pool<T>::run() {
     while(!isend){
